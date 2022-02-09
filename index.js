@@ -23,5 +23,5 @@ app.use('/api/category', require('./routes/category.route'));
 app.use('/api/search', require('./routes/search.route'));
 
 app.listen(port, () => {
-  console.log('Servidor corriendo en el puerto ' ,port, ' v1.0');
+  console.log('Servidor corriendo en el puerto ' ,port, ' v1.0.0');
 });
