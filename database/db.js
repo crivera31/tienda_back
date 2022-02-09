@@ -13,8 +13,8 @@ const DBconection = new Sequelize(
   host: config.host,
   dialect: config.dialect,
   pool: {
-    max: 5,
-    min: 0,
+    max: 30,
+    min: 5,
     acquire: 30000,
     idle: 10000
     }
